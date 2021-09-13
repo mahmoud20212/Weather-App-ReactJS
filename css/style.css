@@ -9,7 +9,7 @@ body{
     background-size: cover;
 }
 main{
-    min-height: 130vh;
+    min-height: 115vh;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
 }
 #top{
@@ -66,7 +66,7 @@ main{
 #temp{
     width: 40%;
     float: left;
-    font-size: 25px;
+    font-size: 22px;
     font-style: italic;
     background-color: rgba(133, 127, 127, 0.514);
     height: 180px;
