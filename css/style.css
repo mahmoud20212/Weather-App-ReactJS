@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'montseratt', sans-serif;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+}
+main{
+    min-height: 130vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+}
+#top{
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
+}
+.Search-input{
+    margin-bottom: 20px;
+    display: block;
+    width: 50%; 
+    border: none;
+    outline: none;
+    appearance: none;
+    background: none;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #313131;
+    border-radius: 3px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+}
+.display{
+    text-align: center;
+    margin: 60px auto;
+    color: #fff;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.8);
+}
+.country-city{
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-weight: normal;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+}
+.fix{
+    width: 100%;
+    margin-top: 60px;
+}
+#icon{
+    width: 40%;
+    float: left;
+    font-size: 22px;
+    font-style: italic;
+    background-color: rgba(219, 209, 209, 0.37);
+    height: 180px;
+    border-radius: 16px;
+    text-align: center;
+    margin: 0 5%;
+    padding: 5px 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+#temp{
+    width: 40%;
+    float: left;
+    font-size: 25px;
+    font-style: italic;
+    background-color: rgba(133, 127, 127, 0.514);
+    height: 180px;
+    border-radius: 16px;
+    text-align: center;
+    margin: 0 5%;
+    padding: 50px 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.clearfix{
+    clear: both;
+}
+button{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: rgba(133, 127, 127, 0.514);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+button:hover{
+    background-color: orange;
+    transition: 0.5s;
+}
+
+
