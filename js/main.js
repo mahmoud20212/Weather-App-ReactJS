@@ -16,7 +16,11 @@ class App extends React.Component{
         e.preventDefault();
         const city = document.getElementById('city').value;
         const country = document.getElementById('country').value;
-        const api = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&units=metric&APPID=${API}`, {mode: 'cors'});
+        if(location.protocol === "http:"){
+            var api = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&units=metric&APPID=${API}`, {mode: 'cors'});
+        }else{
+            var api = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&units=metric&APPID=${API}`, {mode: 'cors'});
+        }
         const data = await api.json();
 
         console.log(data)
