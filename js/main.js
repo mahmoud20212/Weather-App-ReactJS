@@ -23,7 +23,7 @@ class App extends React.Component{
         }
         const data = await api.json();
 
-        console.log(data)
+        // console.log(data)
 
         if(city && country){
             document.getElementById('temp').style.visibility = 'visible';
